@@ -6,5 +6,6 @@ The data fits a polynomial of the form: t=0.0001n^2-0.0002n+0.0005, where 't' si
 We observe that The leading coefficient--a constant factor differentiating our algorithm's operation count(n^2) from it--equals to 0.001 Therefore, the big-O, big-Omega, and big-theta notations for the algorithm are all Θ(n^2).
 
 After modification of function
+
 4. The time taken to run the function will increase slightly, as an additional operation is performed in each iteration of the inner loop. However, this alteration won't impact the algorithm's overall time complexity, which continues to be O(n^2).
 5. The polynomial fit to the time vs n data will also remain the same, as the additional operation does not change the number of iterations of the inner loop.
